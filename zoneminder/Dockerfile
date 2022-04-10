@@ -2,7 +2,7 @@
 # Dockerfile for zoneminder
 #
 
-FROM debian:jessie
+FROM debian:bullseye
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN set -xe \
