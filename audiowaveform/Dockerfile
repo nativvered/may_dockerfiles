@@ -2,7 +2,7 @@
 # Dockerfile for audiowaveform
 #
 
-FROM ubuntu
+FROM ubuntu:kinetic-20220830
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN apt-get update \
