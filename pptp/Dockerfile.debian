@@ -2,7 +2,7 @@
 # Dockerfile for pptp
 #
 
-FROM debian
+FROM debian:11.5
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN set -xe \
