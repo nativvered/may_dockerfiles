@@ -2,7 +2,7 @@
 # Dockerfile for delegated
 #
 
-FROM debian
+FROM debian:bullseye
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV DG_VERSION 9_9_13
