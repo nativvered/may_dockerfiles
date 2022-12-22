@@ -2,7 +2,7 @@
 # Dockerfile for nodebb
 #
 
-FROM debian
+FROM debian:bullseye
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV BB_VER 1.6.1
