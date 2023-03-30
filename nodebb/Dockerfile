@@ -2,7 +2,7 @@
 # Dockerfile for nodebb
 #
 
-FROM alpine
+FROM alpine:3.17.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV BB_VER 1.10.1
