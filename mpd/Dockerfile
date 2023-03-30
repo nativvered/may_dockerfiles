@@ -2,7 +2,7 @@
 # Dockerfile for mpd
 #
 
-FROM alpine
+FROM alpine:3.17.3
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN apk add --no-cache mpd mpc
