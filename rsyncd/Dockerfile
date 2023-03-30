@@ -2,7 +2,7 @@
 # Dockerfile for rsyncd
 #
 
-FROM alpine
+FROM alpine:3.17.3
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN set -xe \
