@@ -2,7 +2,7 @@
 # Dockerfile for nullmailer
 #
 
-FROM alpine
+FROM alpine:3.17.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV NM_VER 2.0
