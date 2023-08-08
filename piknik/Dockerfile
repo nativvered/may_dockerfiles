@@ -2,7 +2,7 @@
 # Dockerfile for piknik
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER kev <norely@easypi.pro>
 
 ENV PIKNIK_VERSION 0.9.1
