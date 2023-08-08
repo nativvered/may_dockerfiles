@@ -2,7 +2,7 @@
 # Dockerfile for youtube-worker
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER kev <noreplay@easypi.pro>
 
 RUN apk add -U ca-certificates py-pip \
