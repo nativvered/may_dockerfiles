@@ -2,7 +2,7 @@
 # Dockerfile for murmur
 #
 
-FROM alpine 
+FROM alpine:3.18.3 
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV MM_VERSION 1.2.17
