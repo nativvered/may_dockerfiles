@@ -2,7 +2,7 @@
 # Dockerfile for rinetd
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV RINETD_VERSION 0.70
