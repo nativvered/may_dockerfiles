@@ -2,7 +2,7 @@
 # Dockerfile for frp-arm
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER EasyPi Software Foundation
 
 ENV FRP_VERSION 0.21.0
