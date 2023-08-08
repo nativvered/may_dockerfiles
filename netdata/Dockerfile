@@ -2,7 +2,7 @@
 # Dockerfile for netdata
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER EasyPi Software Foundation
 
 ENV NETDATA_VERSION 1.6.0
