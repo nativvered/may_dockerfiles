@@ -2,7 +2,7 @@
 # Dockerfile for luigi
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV LUIGI_HOME_DIR=/opt/luigi
