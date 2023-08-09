@@ -2,7 +2,7 @@
 # Dockerfile for hubot
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV HUBOT_NAME=Hubot
