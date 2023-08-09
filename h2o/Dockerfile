@@ -2,7 +2,7 @@
 # Dockerfile for h2o
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV H2O_VER 2.2.5
