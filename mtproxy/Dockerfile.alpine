@@ -2,7 +2,7 @@
 # Dockerfile for mtproxy
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER EasyPi Software Foundation
 
 WORKDIR /usr/local/src/mtproxy
