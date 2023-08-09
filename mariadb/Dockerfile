@@ -2,7 +2,7 @@
 # Dockerfile for mariadb
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER kev <noreplay@easypi.pro>
 
 RUN set -xe \
