@@ -2,7 +2,7 @@
 # Dockerfile for cmus
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER EasyPi Software Foundation
 
 RUN apk add --no-cache cmus
