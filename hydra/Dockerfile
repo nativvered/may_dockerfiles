@@ -2,7 +2,7 @@
 # Dockerfile for hydra
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER EasyPi Software Foundation
 
 ENV HYDRA_VERSION=8.6
