@@ -2,7 +2,7 @@
 # Dockerfile for hcfg (Home Assistant Configurator)
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER EasyPi Software Foundation
 
 WORKDIR /opt/hcfg
