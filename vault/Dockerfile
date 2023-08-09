@@ -2,7 +2,7 @@
 # Dockerfile for vault
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV VAULT_VER=0.9.0
