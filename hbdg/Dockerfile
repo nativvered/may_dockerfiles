@@ -2,7 +2,7 @@
 # Dockerfile for hbdg (Home Bridge)
 #
 
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER EasyPi Software Foundation
 
 RUN set -xe \
