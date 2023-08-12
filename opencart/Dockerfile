@@ -2,7 +2,7 @@
 # Dockerfile for opencart
 #
 
-FROM php:7.2-apache
+FROM php:7.3.31-apache
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN a2enmod rewrite
