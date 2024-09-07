@@ -2,7 +2,7 @@
 # Dockerfile for python3
 #
 
-FROM alpine
+FROM alpine:3.20.3
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN set -xe \
