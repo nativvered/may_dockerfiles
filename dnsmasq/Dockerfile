@@ -2,7 +2,7 @@
 # Dockerfile for dnsmasq
 #
 
-FROM alpine
+FROM alpine:3.20.3
 
 MAINTAINER kev <norelply@easypi.pro>
 
