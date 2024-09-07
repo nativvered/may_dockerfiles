@@ -2,7 +2,7 @@
 # Dockerfile for fteproxy
 #
 
-FROM alpine
+FROM alpine:3.20.3
 MAINTAINER kev <norelpy@easypi.pro>
 
 RUN set -xe \
