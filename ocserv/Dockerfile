@@ -2,7 +2,7 @@
 # Dockerfile for ocserv
 #
 
-FROM alpine
+FROM alpine:3.20.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV OCSERV_VERSION 0.11.8
