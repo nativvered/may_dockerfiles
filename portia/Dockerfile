@@ -2,7 +2,7 @@
 # Dockerfile for portia
 #
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 
 WORKDIR /app
 
