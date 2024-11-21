@@ -2,7 +2,7 @@
 # Dockerfile for webkit/phantomjs
 #
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER kev
 
 RUN echo "Asia/Shanghai" > /etc/timezone
