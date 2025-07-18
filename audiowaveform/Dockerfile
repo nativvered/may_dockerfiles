@@ -2,7 +2,7 @@
 # Dockerfile for audiowaveform
 #
 
-FROM ubuntu
+FROM ubuntu:24.10
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN apt-get update \
