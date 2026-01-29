@@ -2,7 +2,7 @@
 # Dockerfile for rtmp-server
 #
 
-FROM alpine
+FROM alpine:3.23.3
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN apk add --no-cache nginx-rtmp
