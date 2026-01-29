@@ -2,7 +2,7 @@
 # Dockerfile for aria2
 #
 
-FROM alpine
+FROM alpine:3.23.3
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV TOKEN 00000000-0000-0000-0000-000000000000
