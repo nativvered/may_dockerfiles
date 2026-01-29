@@ -2,7 +2,7 @@
 # Dockerfile for graphite
 #
 
-FROM alpine
+FROM alpine:3.23.3
 MAINTAINER EasyPi Software Foundation
 
 ENV GRAPHITE_VERSION=1.1.5
